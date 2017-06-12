@@ -11,8 +11,8 @@ import { pinnedMetricSelector } from '../selectors/node-metric';
 const TOPOLOGY_DISPLAY_PRIORITY = [
   'ecs-services',
   'ecs-tasks',
+  'kube-controllers',
   'services',
-  'deployments',
   'replica-sets',
   'pods',
   'containers',
